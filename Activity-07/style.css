@@ -1,0 +1,15 @@
+
+p, li, a, h2 {color:#ffffff;}
+body {background-color:#8f6767; margin: auto; text-align: center;}
+img {border-radius: 15px; width: 100%;}
+#mainHeading {color:#ffffff}
+.bgroundcolor {
+    background-color: #333;
+    align-content: center;}
+.textColor {color: #ffffff;}
+table {margin: 0px auto;}
+section {align-content: center;}
+/*new styling added below*/
+h2 {background-color: #333;} /*this was to add background color to the Heading 2 line*/
+li, p, h1, h2, h3, a {font-family:'Broadway', Times, serif;}/*This is making sure all font type of the page(s) are set to "Broadway"*/
+footer {font-weight: bold;} /*This is bolding the text within the footer section*/
