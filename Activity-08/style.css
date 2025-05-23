@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p, li, a, h2 {
+  color:#ffffff;
+}
+body {
+  margin: auto; 
+  text-align: center;
+  /*added from Activity 8(changed background color #8f6767 to what it is now*/
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color:#f2f2f2; 
+}
+img {
+  border-radius: 15px; 
+  width: 100%;
+}
+#mainHeading {
+  color:#ffffff; /*This was not added in Activity 8 it was already part of the code*/
+  background-image: url ("");
+  background-size: cover;
+  padding: 1rem;
+}
+.bgroundcolor {
+  background-color: #333;
+  align-content: center;
+}
+.textColor {
+  color: #ffffff;
+}
+table {
+  margin: 0px auto;
+}
+section {
+  align-content: center;
+}
+
+/*new styling added below*/
+
+h2 {
+  background-color: #333;
+} /*this was to add background color to the Heading 2 line*/
+
+h1, h2 {
+  font-family:'Broadway', Times, serif;
+}/*This is making sure all font type of the page(s) are set to "Broadway"*/
+
+footer {
+  font-weight: bold;
+} /*This is bolding the text within the footer section*/
+
+li, p, h3, a {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}/*This was the bonus points to add Google font to the document*/
