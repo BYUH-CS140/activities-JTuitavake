@@ -5,7 +5,7 @@ body {
     
 }
 
-.pattern, {
+.pattern {
     width:  100%;
 }
 
@@ -40,7 +40,6 @@ li {
 
 li:before {
     content:url(/PhotoTourProject/Images/flag.jpg);
-    size: 20px;
     padding-right: 5px;
 }
 
@@ -81,15 +80,11 @@ nav {
     height: auto;
     display:flex;
     align-items: center;
-    margin-right: right;
+    margin-right: auto;
     margin-left: auto;
 }
 h1 {
     color: #a10000;
-}
-
-.activities {
-    border-radius: "15px";
 }
 
 h2 {
@@ -125,5 +120,5 @@ footer {
 table {
     margin: 0px auto; 
     margin-left: auto; 
-    margin-right: auto;"
+    margin-right: auto;
 }
