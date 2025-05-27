@@ -19,7 +19,7 @@ img {
 }
 #mainHeading {
   color:#ffffff; /*This was not added in Activity 8 it was already part of the code*/
-  background-image: url ("images/2.png");
+  background-image: url("patter-gb.png");
   background-size: cover;
   padding: 1rem;
 }
