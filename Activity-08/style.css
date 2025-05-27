@@ -104,6 +104,7 @@ main {
  padding: 1rem; 
  border-radius: 6px; 
  width: 60%; 
+ margin: auto auto auto auto;/*I added this to add to the website*/
 }
 
 .resources li {
