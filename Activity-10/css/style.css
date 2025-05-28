@@ -1,19 +1,19 @@
 body {
-  background color: forestgreen;
+  background-color: forestgreen; /* was missing a dash between the two words of the property*/
   margin: 0;
-  font-family: Gil Sans;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* incomplete information after the property ("Gill Sans") */
 }
 
 header {
-  background-color: G0ld;
-  color: #004d00;
+  background-color: Gold; /* mispelling of gold (G0ld)*/
+  color: green; /* changed color from black to green. */
   text-align: center;
   font-size: 2em;
-  paddding: 20px;
+  padding: 20px; /* mispelling of padding (paddding)*/
   margin: 0;
 }
 
-.nav {
+nav { /* take out the . from in front of the nav element (.nav). */
   background-color: #2e1a1a;
   width: 100%;
   margin: 0;
@@ -51,11 +51,11 @@ nav a::hover {
 
 main {
   background-color: lightgreen;
-  margin: 50px 100;
+  margin: 50px 100px; /* missing "px" at the 100px (was just 100). */
   padding: 50px;
 }
 
-garden {
+#garden { /*missing "#" because it has an ID. */
   border: 5px solid brown;
   border-radius: 30px;
   box-shadow: 5px 5px 15px grey;
@@ -64,7 +64,7 @@ garden {
 }
 
 section {
-  margintop: 30px;
+  margin-top: 30px; /* dash missing between margin and top*/
 }
 
 h2 {
