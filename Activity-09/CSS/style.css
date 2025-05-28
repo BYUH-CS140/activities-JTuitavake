@@ -15,6 +15,7 @@ a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
     padding: 10px;
+    box-shadow: 5px 5px;
 }
 
 a:hover {
@@ -46,6 +47,7 @@ h1 {
 /*styling for the dropdown*/
 /* Style The Dropdown Button */
 .dropbtn {
+    box-shadow: 5px 5px;
     background-color:  rgb(68, 155, 171);
     color: #ffffff;
     text-decoration: none;
