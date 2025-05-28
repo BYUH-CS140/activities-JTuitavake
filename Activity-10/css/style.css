@@ -44,18 +44,18 @@ nav a {
   padding: 14px 16px;
 }
 
-nav a:hover { /*extra ":" between a and hover ("a::hover")*/
+nav a:hover { /* (7) extra ":" between a and hover ("a::hover")*/
   background-color: gold;
   color: #2e1a1a;
 }
 
 main {
   background-color: lightgreen;
-  margin: 50px 100px; /* (7) missing "px" at the 100px (was just 100). */
+  margin: 50px 100px; /* (8) missing "px" at the 100px (was just 100). */
   padding: 50px;
 }
 
-#garden { /* (8) missing "#" because it has an ID. */
+#garden { /* (9) missing "#" because it has an ID. */
   border: 5px solid brown;
   border-radius: 30px;
   box-shadow: 5px 5px 15px grey;
@@ -64,7 +64,7 @@ main {
 }
 
 section {
-  margin-top: 30px; /* (9) dash missing between margin and top*/
+  margin-top: 30px; /* (10) dash missing between margin and top*/
 }
 
 h2 {
