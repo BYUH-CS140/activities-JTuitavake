@@ -44,7 +44,7 @@ nav a {
   padding: 14px 16px;
 }
 
-nav a.hover {
+nav a:hover { /*extra ":" between a and hover ("a::hover")*/
   background-color: gold;
   color: #2e1a1a;
 }
