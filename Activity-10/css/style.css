@@ -1,19 +1,19 @@
 body {
-  background-color: forestgreen; /* was missing a dash between the two words of the property*/
+  background-color: forestgreen; /* (1) was missing a dash between the two words of the property*/
   margin: 0;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* incomplete information after the property ("Gill Sans") */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* (2) incomplete information after the property ("Gill Sans") */
 }
 
 header {
-  background-color: Gold; /* mispelling of gold (G0ld)*/
-  color: green; /* changed color from black to green. */
+  background-color: Gold; /* (3) mispelling of gold (G0ld)*/
+  color: green; /* (4) changed color from black to green. */
   text-align: center;
   font-size: 2em;
-  padding: 20px; /* mispelling of padding (paddding)*/
+  padding: 20px; /* (5) mispelling of padding (paddding)*/
   margin: 0;
 }
 
-nav { /* take out the . from in front of the nav element (.nav). */
+nav { /* (6) take out the . from in front of the nav element (.nav). */
   background-color: #2e1a1a;
   width: 100%;
   margin: 0;
@@ -44,27 +44,27 @@ nav a {
   padding: 14px 16px;
 }
 
-nav a::hover {
+nav a.hover {
   background-color: gold;
   color: #2e1a1a;
 }
 
 main {
   background-color: lightgreen;
-  margin: 50px 100px; /* missing "px" at the 100px (was just 100). */
+  margin: 50px 100px; /* (7) missing "px" at the 100px (was just 100). */
   padding: 50px;
 }
 
-#garden { /*missing "#" because it has an ID. */
+#garden { /* (8) missing "#" because it has an ID. */
   border: 5px solid brown;
   border-radius: 30px;
   box-shadow: 5px 5px 15px grey;
-  height: 30;
+  height: 30%;
   width: 30%;
 }
 
 section {
-  margin-top: 30px; /* dash missing between margin and top*/
+  margin-top: 30px; /* (9) dash missing between margin and top*/
 }
 
 h2 {
