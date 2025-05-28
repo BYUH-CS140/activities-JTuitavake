@@ -1,8 +1,27 @@
+/* These are the required criteria for css in the activity. */
 ul {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 li {
     list-style-type: none;
+    display:inline-block;   
+}
+
+a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: #0615f4;
+}
+
+/* These are just my own additions to make the website look a little better. */
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
