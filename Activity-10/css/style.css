@@ -6,7 +6,7 @@ body {
 
 header {
   background-color: Gold; /* (3) mispelling of gold (G0ld)*/
-  color: green; /* (4) changed color from black to green. */
+  color: darkgreen; /* (4) changed color from black to darkgreen. */
   text-align: center;
   font-size: 2em;
   padding: 20px; /* (5) mispelling of padding (paddding)*/
