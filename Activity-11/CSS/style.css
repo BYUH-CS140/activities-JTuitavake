@@ -20,6 +20,19 @@ nav {
     text-align: right;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.hcenter {
+    color: #ffffff;
+    background-color: #10172e;
+    text-align: center;
+}
+
 li>a {
     color: #ffffff;
     text-decoration: none;
