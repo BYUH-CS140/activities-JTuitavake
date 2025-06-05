@@ -63,3 +63,30 @@ hr {
 p {
     margin: 0px 0px 10px 10px;
 }
+
+    /* Two-Column Layout */
+    .two-column {
+      display: flex;
+      gap: 10px;
+    }
+
+    .two-column .column {
+      flex: 1;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
+
+    /* Floated Image with Wrapping Text */
+    .image-wrap img {
+      float: left;
+      margin-right: 15px;
+      max-width: 40%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .image-wrap p {
+      overflow: hidden; /* Clears the float */
+    }
