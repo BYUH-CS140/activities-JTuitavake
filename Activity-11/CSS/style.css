@@ -94,6 +94,10 @@ p {
     background-color: #f9f9f9;
 }
 
+.two-column .column>img {
+    width:100%;
+}
+
 /* Floated Image with Wrapping Text */
 .image-wrap img {
     float: left;
