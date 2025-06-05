@@ -1,5 +1,6 @@
 * {
-   font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 ul {
     display: block;
@@ -11,17 +12,22 @@ li {
     display:inline-block; 
 }
 
+.header {
+    background-color: #10172e;
+}
+
 nav {
     text-align: right;
 }
 
 li>a {
-    color: #0a004c;
+    color: #ffffff;
     text-decoration: none;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 18px;
     padding: 10px;
     word-spacing: 10px;
+    font-weight: bolder;
     margin-right: 5px;
     /*box-shadow: 5px 5px;*/
 }
@@ -29,7 +35,7 @@ li>a {
 li>a:hover {
     text-decoration:wavy;
     color:  rgb(255, 255, 255);
-    background-color: #d9d9d9;
+    background-color:#3a5546;
     border-radius: 8px;
 }
 
@@ -47,4 +53,13 @@ li>a:hover {
 .slogan {
     margin: left;
     font-family: 'Times New Roman', Times, serif;
+}
+
+hr {
+    height: 2px;
+    background-color: #ffffff;
+}
+
+p {
+    margin: 0px 0px 10px 10px;
 }
