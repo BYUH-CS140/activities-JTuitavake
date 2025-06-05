@@ -52,9 +52,17 @@ li>a:hover {
     border-radius: 8px;
 }
 
+.wlogo {
+    width: 200px;
+}
+
+.main {
+    width: 100%;
+}
+
 .column {
     float: left;
-    width: 50%
+    width: 50%;
 }
 
 .row:after {
