@@ -121,22 +121,41 @@ p {
     background-color: #10172e;
 }
 
+.lroom {
+    height:100%;
+}
+
 /* Grid container styling */
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  gap: 10px; /* Space between grid items */
-  width: 300px;
+    display: grid;
+    gap: 5px; /* Space between grid items */
+    row-gap: 5px;
+    column-gap: 5px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
 }
 
 /* Grid items styling */
 .grid-item {
-  background-color: #0078d7;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.475);
+}
+
+.grid-item>img {
+    width: 100%;
+}
+
+.expect {
+    color: #10172e;
+    text-align: center;
+}
+
+.services {
+    width: 100%;
 }
