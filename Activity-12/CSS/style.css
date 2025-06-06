@@ -159,3 +159,7 @@ p {
 .services {
     width: 100%;
 }
+
+#id {
+    width: 20px;
+}
