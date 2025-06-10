@@ -1,0 +1,36 @@
+ul {
+    display: block;
+    margin: 0 0 0 0;
+}
+
+li {
+    list-style-type: none;
+    display:inline-block; 
+}
+
+.header {
+    background-color: #035e26;
+}
+
+nav {
+    text-align: right;
+}
+
+li>a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    word-spacing: 10px;
+    font-weight: bolder;
+    margin-right: 5px;
+    /*box-shadow: 5px 5px;*/
+}
+
+li>a:hover {
+    text-decoration:wavy;
+    color:  rgb(255, 255, 255);
+    background-color:#cdcdcd;
+    border-radius: 8px;
+}
