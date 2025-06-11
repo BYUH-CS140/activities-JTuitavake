@@ -39,7 +39,7 @@ li {
 }
 
 li:before {
-    content:url(/PhotoTourProject/Images/flag.jpg);
+    content:url(/ResponsiveWebsiteProject/Media/flag.jpg);
     padding-right: 5px;
 }
 
