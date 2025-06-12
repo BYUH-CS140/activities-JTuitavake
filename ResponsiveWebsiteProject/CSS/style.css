@@ -128,8 +128,6 @@ table {
 }
 
 @media only screen and (max-width: 360px) {
-}
-  body {
     nav {
         float:left;
     }
@@ -194,7 +192,7 @@ table {
     }
     .pattern {
     width:  100%;
-}
+    }
 
     .royal {
         width: 100%;
@@ -313,6 +311,4 @@ table {
         margin-left: auto; 
         margin-right: auto;
     }
-    }
 }
-
