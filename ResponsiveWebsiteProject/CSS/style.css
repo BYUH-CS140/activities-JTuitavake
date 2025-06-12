@@ -127,7 +127,7 @@ table {
     margin-right: auto;
 }
 
-@media only screen and (max-width: <= 360px) {
+@media only screen and (max-width: == 360px) {}
   body {
     nav {
         float:left;
