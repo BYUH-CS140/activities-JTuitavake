@@ -38,8 +38,8 @@ li {
     border-radius: 15px;
 }
 
-ul{
-    list-style-image: url(/ResponsiveWebsiteProject/Media/flag.jpg);
+li:before {
+    content:url(/ResponsiveWebsiteProject/Media/flag.jpg);
     padding-right: 5px;
 }
 
@@ -217,10 +217,10 @@ table {
         border-radius: 15px;
     }
 
-   ul{
-    list-style-image: url(/ResponsiveWebsiteProject/Media/flag.jpg);
-    padding-right: 5px;
-}
+    li:before {
+        content:url(/ResponsiveWebsiteProject/Media/flag.jpg);
+        padding-right: 5px;
+    }
 
     .list {
         color:#a10000;
