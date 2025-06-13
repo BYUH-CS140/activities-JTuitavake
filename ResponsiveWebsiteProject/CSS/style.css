@@ -5,6 +5,29 @@ body {
     
 }
 
+/* Floated Image with Wrapping Text */
+.image-wrap img {
+    float: left;
+    margin-right: 15px;
+    max-width: 60%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-wrap p {
+    overflow: hidden; /* Clears the float */
+}
+
+.bg {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #ffffff;
+    background-color: #10172e;
+}
+
 li > a {
     text-decoration: none;
     color: #b50000;
