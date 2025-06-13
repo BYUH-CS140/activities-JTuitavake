@@ -5,6 +5,10 @@ body {
     
 }
 
+figcaption {
+    text-align: center;
+    font-style: italic;}
+
 /* Floated Image with Wrapping Text */
 .image-wrap img {
     float: left;
