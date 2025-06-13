@@ -64,11 +64,6 @@ li {
     border-radius: 15px;
 }
 
-li:before {
-    content:url(/ResponsiveWebsiteProject/Media/flag.jpg);
-    padding-right: 5px;
-}
-
 .list {
     color:#a10000;
     font-size:medium;
@@ -229,7 +224,6 @@ table {
     }
 
     ul {
-        list-style: none;
         margin-left: 0px;
         padding-left: 0px;
     }
@@ -241,11 +235,6 @@ table {
 
     .image {
         border-radius: 15px;
-    }
-
-    li:before {
-        content:url(/ResponsiveWebsiteProject/Media/flag.jpg);
-        padding-right: 5px;
     }
 
     .list {
