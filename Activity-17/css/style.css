@@ -20,8 +20,34 @@
   }
 }
 
+
 @media screen and (min-width: 601px) {
-  .break_mobile {
-    display: none;
+  .form-group {
+    display: flex;
+    align-items: center;
+  }
+
+  .form-group > #username, #email, #phone, #password {
+    width: 50%;
+    margin-right: 10px;
+  }
+
+  .form-group label {
+    width: 100px;
+    margin-bottom: 0;
+    text-align: right;
+    padding-right: 10px;
+  }
+
+  .form-group .feedback {
+    flex-basis: 100%;
+    padding-left: 110px; /* aligns with input start */
+    margin-top: 5px;
+  }
+
+  .form-group.full-width {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 110px; /* aligns with inputs */
   }
 }
