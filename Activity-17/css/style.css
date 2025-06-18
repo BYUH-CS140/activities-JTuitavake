@@ -1,7 +1,8 @@
 body {
-  margin: auto;
-  width: 70%;
+  background-image: url("/Activity-17/media/group-of-business-team-members-raising-hands-in-the-sunset-sky-background-to-depict-teamwork-free-photo.jpg");
+  background-size: cover;
 }
+
 .feedback {
   color: red;
   display: none;
@@ -23,6 +24,10 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  body{
+    margin: auto;
+    width: 60%;
+  }
   .break_mobile {
     display: block;
   }
@@ -36,6 +41,11 @@ body {
 
 
 @media screen and (min-width: 601px) {
+  body{
+    margin: auto;
+    width: 50%
+  }
+
   .form-group {
     display: flex;
     align-items: center;
