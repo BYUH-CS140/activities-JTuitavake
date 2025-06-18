@@ -42,7 +42,7 @@ body {
   }
 
   .form-group > #username, #email, #phone, #password {
-    width: 30%;
+    width: 60%;
     margin-right: 10px;
   }
 
