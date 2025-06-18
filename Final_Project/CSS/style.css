@@ -1,0 +1,122 @@
+* {
+    margin: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    display: block;
+    margin: 0 0 0 0;
+}
+
+li {
+    list-style-type: none;
+    display:inline-block; 
+}
+
+.header {
+    background-color: #10172e;
+}
+
+nav {
+    text-align: right;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.hcenter {
+    color: #ffffff;
+    background-color: #10172e;
+    text-align: center;
+}
+
+li>a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    word-spacing: 10px;
+    font-weight: bolder;
+    margin-right: 5px;
+    /*box-shadow: 5px 5px;*/
+}
+
+li>a:hover {
+    text-decoration:wavy;
+    color:  rgb(255, 255, 255);
+    background-color:#cdcdcd;
+    border-radius: 8px;
+}
+
+.wlogo {
+    width: 200px;
+}
+
+.main {
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+hr>line {
+    height: 2px;
+    background-color: #ffffff;
+}
+
+p {
+    margin: 0px 0px 10px 10px;
+}
+
+/* Two-Column Layout */
+.two-column {
+    display: flex;
+    gap: 10px;
+}
+
+.two-column .column {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.two-column .column>img {
+    width:100%;
+}
+
+/* Floated Image with Wrapping Text */
+.image-wrap img {
+    float: left;
+    margin-right: 15px;
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-wrap p {
+    overflow: hidden; /* Clears the float */
+}
+
+.bg {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #ffffff;
+    background-color: #10172e;
+}
