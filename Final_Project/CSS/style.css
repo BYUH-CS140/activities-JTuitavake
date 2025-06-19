@@ -4,8 +4,8 @@
 }
 
 .search-icon {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     display: inline-block;
 }
 
@@ -18,8 +18,8 @@ nav {
 }
 
 .search-bar-container {
-    display: flex;
-    float: right;
+    position: absolute;
+    right: 0;
 }
 
 .hcenter {
