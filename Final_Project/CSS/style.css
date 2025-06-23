@@ -33,14 +33,14 @@
     box-sizing: border-box;
 }
 
-.slogan {
+h1 {
+    color: rgb(169, 133, 89);
     font-family: Showcard Gothic, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.slogan > h1 {
-    color: rgb(169, 133, 89)
+h2 {
+    text-align: center;;
 }
-
 .search-icon {
     width: 10px;
     height: 10px;
@@ -199,6 +199,7 @@ p {
         display:grid;
         align-items: left;
     }
+
     .pattern {
     width:  100%;
     }
@@ -206,12 +207,6 @@ p {
     .royal {
         width: 100%;
     }
-    h1 { 
-        text-align: center;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-
-    }
-
 
     p {
         font-family:Georgia, 'Times New Roman', Times, serif;
@@ -275,12 +270,6 @@ p {
         color: #a10000;
     }
 
-    h2 {
-        background-color: #a10000;
-        color:#fff;
-        text-align: center;
-    }
-
     h3 {
         text-align: center;
     }
@@ -313,6 +302,12 @@ p {
         margin: 0px auto; 
         margin-left: auto; 
         margin-right: auto;
+    }
+
+    .slogan {
+        float: left;
+        text-align: left;
+        margin-left: 10px;
     }
 }
 
