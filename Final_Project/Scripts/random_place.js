@@ -13,7 +13,7 @@ const places = [
     {
     name: "Tongatapu",
     description: "The main island, rich with cultural history including ancient royal tombs, beautiful parks, and the bustling capital city of Nuku'alofa.",
-    image: "Media/tongatapu.jpg"
+    image: "Media/tonga.png"
     },
     {
     name: "Eua Island",
