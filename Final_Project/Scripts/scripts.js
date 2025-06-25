@@ -59,7 +59,7 @@ try {
   form.reset();
   successMsg.style.display = 'block';
   setTimeout(() => {
-    window.location.href = "https://byuh"; // ← change to your URL
+    window.location.href = "https://byuh-cs140.github.io/activities-JTuitavake/Final_Project/index.html"; // ← change to your URL
   }, 3000); // Wait 3 seconds before redirect
 }
 
