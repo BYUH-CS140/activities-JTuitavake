@@ -64,94 +64,91 @@ h2 {
 /*End of Mission and Vision Section*/
 
 /*Start for the Feedback page*/
-body {
-font-family: Arial, sans-serif;
-margin: 1rem;
-background: #f0f8ff;
-color: #333;
+#feedbackContainer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    color: #333;
+    background-color: #f4f4f4;
 }
 
-h2 {
-text-align: center;
-color: #2c3e50;
+#feedbackContainer form#feedbackForm {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-form {
-max-width: 500px;
-margin: 0 auto;
-background: white;
-padding: 1.5rem;
-border-radius: 8px;
-box-shadow: 0 0 10px #ccc;
+#feedbackContainer form label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #444;
 }
 
-label {
-display: block;
-margin-top: 1rem;
-font-weight: bold;
+#feedbackContainer form input[type="text"],
+#feedbackContainer form input[type="email"],
+#feedbackContainer form textarea {
+    width: 100%;
+    padding: 10px 14px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
-width: 100%;
-padding: 0.5rem;
-margin-top: 0.25rem;
-border-radius: 4px;
-border: 1px solid #ccc;
-box-sizing: border-box;
+#feedbackContainer form input:focus,
+#feedbackContainer form textarea:focus {
+    border-color: #083f79;
+    outline: none;
 }
 
-textarea {
-resize: vertical;
-min-height: 100px;
+#feedbackContainer form button[type="submit"] {
+    margin-top: 25px;
+    padding: 12px 20px;
+    background-color:#272b21;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-button {
-margin-top: 1.5rem;
-background: #2c3e50;
-color: white;
-border: none;
-padding: 0.75rem 1.5rem;
-border-radius: 4px;
-font-size: 1rem;
-cursor: pointer;
+#feedbackContainer form button[type="submit"]:hover {
+    background-color: bisque;
+    color: #272b21;
 }
 
-button:hover {
-background: #34495e;
+#feedbackContainer form .error {
+    color: red;
+    font-size: 0.85rem;
+    margin-left: 10px;
 }
 
-.error {
-color: red;
-font-size: 0.9rem;
+#feedbackContainer form .success-message {
+    color: green;
+    font-size: 1rem;
+    margin-top: 20px;
+    display: none;
 }
 
-.success-message {
-text-align: center;
-color: green;
-font-weight: bold;
-margin-top: 1rem;
+#feedbackContainer form .error-message {
+    color: red;
+    font-size: 1rem;
+    margin-top: 20px;
+    display: none;
 }
 
-.error-message {
-text-align: center;
-color: red;
-font-weight: bold;
-margin-top: 1rem;
+#feedbackContainer p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
 }
 
-/* Responsive */
-@media (max-width: 600px) {
-body {
-    margin: 0.5rem;
-}
-form {
-    padding: 1rem;
-    box-shadow: none;
-    border: 1px solid #ddd;
-}
-}
+  
 /*End for the Feedback Page*/
 
 .bg {
