@@ -7,6 +7,15 @@
     width: 60px;
 }
 
+.tourism-link {
+    text-align: center;
+    color:rgb(169, 133, 89);
+}
+
+.tourism-title {
+    text-align: center;
+}
+
 .heading {
     display: flex;
     align-items: center; /* Vertically aligns logo and search bar */
