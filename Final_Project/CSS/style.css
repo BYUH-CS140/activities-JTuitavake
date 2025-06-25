@@ -38,9 +38,11 @@ h1 {
     font-family: Showcard Gothic, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-h2 {
-    text-align: center;;
-}
+    .slogan {
+        text-align: left;
+        padding: 20px;
+    }
+
 .search-icon {
     width: 10px;
     height: 10px;
@@ -305,10 +307,10 @@ p {
     }
 
     .slogan {
-        float: left;
-        text-align: left;
-        margin-left: 10px;
+    text-align: left;
+    padding: 20px;
     }
+
 }
 
 @media only screen and (min-width: 601px) {
