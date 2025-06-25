@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="script" href="Scripts/scripts.js">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Activity 11</title>
+    <title>The Village</title>
 </head>
 <body>
     <header>
@@ -42,57 +43,32 @@
         </nav> 
     </header>
     <br>
-    <br>
-    <p><strong>Welcome to <i>The Village</i></strong>, your private escape nestled in the heart
-            of the tropics. Surrounded by crystal-clear waters, soft white sand, and lush
-            greenery, our exclusive island retreat offers the perfect blend of luxury, tranquility,
-            and natural beauty. Whether you're seeking a romantic getaway, a family
-            adventure, or a serene space to unwind, this resort of homes promises an unforgettable
-            experience with world-class amenities, personalized service, and breathtaking
-            views at every turn. Your dream island vacation begins here.
-        </p>
-    <br>
-    <img src="Media/banner.jpg" class="main" alt="#">
-    <br>
-    <br>
-    <h2>Paradise Redefined</h2>
-    <br>
-    <div class="slogan">
-        <h1>DISCOVER</h1>
-        <br>
-        <h1>THE TRUE</h1>
-        <br>
-        <h1>SOUTH PACIFIC</h1>
-        <br>
-        <h1>WITH A FEELING</h1>
-        <br>
-        <h1>OF HOME</h1>
-    </div>
-    <br>
-    <p>Experience the ultimate in relaxation and adventure at The Village, where every moment is a celebration of life, love, and the beauty of nature.</p>
-    <br>
-    <h2>Register Below and Join Our Community</h2>
-    <br>
-    <div class="form">
-    <h1>Registration Form</h1>
-    <br>
-        <form>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            <br>
-            <button type="submit">Register</button>
-        </form>
-    </div>
-    <footer>
-        <br>
-        <p><sub>&copy; 2025 The Village</sub></p>
-    </footer>
+    <main>
+
+<h2>Feedback for The Village Resort</h2>
+
+<form id="feedbackForm" method="POST" action="https://formspree.io/f/xldnobal" novalidate>
+  <label for="name">Name <span class="error" id="nameError"></span></label>
+  <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+  <label for="email">Email <span class="error" id="emailError"></span></label>
+  <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+  <label for="message">Message <span class="error" id="messageError"></span></label>
+  <textarea id="message" name="message" placeholder="Your feedback..." required></textarea>
+
+  <button type="submit">Submit Feedback</button>
+  <p class="success-message" id="successMsg" style="display:none;">Thank you for your feedback!</p>
+  <p class="error-message" id="errorMsg" style="display:none;">Oops! Something went wrong.</p>
+</form>
+
+</body>
+</html>
+
+</body>
+</html>
+
+    </main>
     <!-- Start of LiveChat (www.livechat.com) code -->
     <script>
         window.__lc = window.__lc || {};
@@ -103,7 +79,6 @@
     </script>
     <noscript><a href="https://www.livechat.com/chat-with/19210675/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
     <!-- End of LiveChat code -->
-
 
 </body>
 </html>
