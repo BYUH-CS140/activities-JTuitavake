@@ -88,6 +88,10 @@ h2 {
     text-align: center;
 }
 
+.services {
+    width: 100%;
+}
+
 .image-gallery > img {
     display: block;
     margin-left: auto;
@@ -114,6 +118,7 @@ h2 {
 .two-column .column>img {
     width:100%;
 }
+
 /*End of Mission and Vision Section*/
 
 /*Start for the Feedback page*/
