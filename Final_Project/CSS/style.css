@@ -232,10 +232,10 @@ h1 {
     font-family: Showcard Gothic, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-    .slogan {
-        text-align: left;
-        padding: 20px;
-    }
+.slogan {
+    text-align: left;
+    padding: 20px;
+}
 
 .search-icon {
     width: 10px;
@@ -580,6 +580,11 @@ p {
         flex-wrap: wrap;
     }
 
+    .slogan {
+        flex-wrap: wrap;
+        text-align: left;
+        padding: 20px;
+    }
 }
 
 
