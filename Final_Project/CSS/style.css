@@ -564,17 +564,11 @@ p {
     /*Start for the spot picker tool*/
     #tongaSpotPicker {
         flex-wrap: wrap;
-        
     }
-
-    
 
     #spotInfo {
         flex-wrap: wrap;
-        
     }
-
-    
     /*End of the spot picker tool*/
 
     #feedbackContainer {
