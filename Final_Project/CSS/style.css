@@ -334,8 +334,14 @@ p {
         height: 30px;
         border-radius: 50%;
         position: relative;
-        }
+    }
 
+    .room-wrap img {
+    float: left;
+    margin-right: 15px;
+    max-width: 100%;
+    border-radius: 8px;
+}
     .dropbtn {
         background-color:  rgb(255, 255, 255);
         color: #272b21;
