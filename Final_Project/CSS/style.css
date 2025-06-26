@@ -380,6 +380,7 @@ p {
 }
 
 /*End of the spot picker tool*/
+
 @media only screen and (max-width: 600px) {
     nav {
         float:left;
@@ -560,70 +561,28 @@ p {
     padding: 20px;
     }
 
-}
-
     /*Start for the spot picker tool*/
     #tongaSpotPicker {
-        flex-direction: row;
-        padding: 20px 15px;
-        margin: 20px auto;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background: rgba(0, 0, 0, 0.15);
-        border-radius: 12px; 
-        box-shadow: 0 8px 20px rgba(0,0,0,0.12); 
-        text-align: center;
+        flex-wrap: wrap;
+        
     }
 
-    #tongaSpotPicker > h2 {
-        color: #272b21; 
-    }
-
-    #pickSpotBtn {
-        width: 100%; 
-        background:bisque; 
-        color:white; 
-        border:none; 
-        border-radius: 8px; 
-        cursor:pointer; 
-        transition: background-color 0.3s ease; 
-        margin-bottom: 30px;
-    }
+    
 
     #spotInfo {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        gap: 15px;
-        opacity: 0;
-        transition: opacity 0.5s ease;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        
     }
 
-    #spotName{
-        color: #004d40; 
-        font-size: 1.8rem; 
-        margin-bottom: 15px;
-    }
-
-    #spotImage {
-        flex: 0 0 40%;    
-        height: auto;     
-        max-height: 280px;
-        object-fit: cover;
-        border-radius: 10px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        margin-bottom: 0; 
-}
-
-    #spotDescription {
-        flex: 1;              
-        font-size: 1.1rem;
-        line-height: 1.5;
-        padding: 0 10px;
-        color: #00695c;
-}
-
+    
     /*End of the spot picker tool*/
+
+    #feedbackContainer {
+        flex-wrap: wrap;
+    }
+
+}
+
 
 @media only screen and (min-width: 601px) {
     .dropbtn {
