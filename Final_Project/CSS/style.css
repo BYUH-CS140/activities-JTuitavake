@@ -5,11 +5,9 @@
 /*THis is for the rooms html file*/
 .firstroom {
   flex: 1;
-  border: 1px solid #ccc;
   padding: 10px;
   border-radius: 8px;
-  color: bisque;
-  background-color: #272b21;
+  color:#272b21;
   width: 80%;
   margin: auto; /* Centers the bg div */
 }
@@ -25,7 +23,7 @@
 .room-wrap img {
     float: left;
     margin-right: 15px;
-    max-width: 30%;
+    max-width: 15%;
     border-radius: 8px;
 }
 
@@ -36,6 +34,18 @@
 .slogan-rooms {
     padding: 20px;
 }
+
+/*.three-columns {
+    float: left;
+    width: 33.33%
+}
+
+.firstroom :after {
+    content: "";
+    display: table;
+    clear: both;
+}
+*/
 /*End of the Rooms html file page*/
 .logo {
     width: 60px;
